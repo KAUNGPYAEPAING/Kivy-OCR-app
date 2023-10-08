@@ -1,0 +1,15 @@
+BoxLayout:
+    orientation: 'vertical'
+
+    Image:
+        id: image
+        allow_stretch: True
+
+    Label:
+        id: label
+
+    Button:
+        text: 'Click Here'
+        size_hint: None, None
+        pos_hint: {'center_x': .5, 'center_y': .5}
+        on_release: app.take_picture()
