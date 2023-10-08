@@ -1,4 +1,4 @@
-# KivyOCRapp
+# Simple Kivy OCR app
 
 Developed By Aung Kaung Pyae Paing
 
