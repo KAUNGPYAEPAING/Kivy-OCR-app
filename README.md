@@ -4,7 +4,7 @@ Developed By Aung Kaung Pyae Paing
 
 Making Optical character recognition (OCR) app using Python and Kivy. This project is based on only image processing without any machine learning or deep learning methods. In order to make the system more accurate, you need to use deep learning methods.
 
-#Requireme Packages
+# Require Packages
 Python
 Kivy
 opencv
