@@ -36,7 +36,6 @@ class MainApp(App):
         self.image.texture = texture
 
     def take_picture(self, *args):
-        image_name = 'picture_at_2_02.png'
         img = cv2.cvtColor(self.image_frame, cv2.COLOR_BGR2GRAY)
         img = cv2.GaussianBlur(img, (3, 3), 0)
         _, img = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
